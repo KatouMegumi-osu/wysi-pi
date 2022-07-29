@@ -3,13 +3,13 @@
 
 using namespace std;
 
-//Attempt to get pi using inifnite Leibniz formula
+//Try to get pi using inifnite Leibniz formula
 int main()
 {
     constexpr double division = 1;
     double divided = 1;
 
-     counter = 0;
+    int counter = 0;
     double quarter_pi = 1;
 
     while(counter < 2147483647) {
@@ -26,5 +26,5 @@ int main()
             cout << "last pi is: " << quarter_pi*4 << '\n';
             cout.precision(90);
         } 
-    }
+    } 
 }
